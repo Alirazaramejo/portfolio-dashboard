@@ -49,7 +49,7 @@ const UpdateProject = () => {
   useEffect(() => {
     const getProject = async () => {
       await axios
-        .get(`https://porfolio-backend-wheat.vercel.app/api/v1/project/get/${id}`, {
+        .get(`https://backend-porfolio-nine.vercel.app/api/v1/project/get/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
